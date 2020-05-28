@@ -1,13 +1,11 @@
-names = "Anand", "Ram","Radhe"
-
-for name in names:
-	print(name)
-
-print(names)
+import cv2
+import numpy as np
 
 
-def home():
-	return home
+image = cv2.imread("0111.png")
+
+image = cv2.convertColor(BGR2GRAY)
 
 
+image = cv2.imwrite()
 
